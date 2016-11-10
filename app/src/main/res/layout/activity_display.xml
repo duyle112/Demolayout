@@ -9,36 +9,36 @@
     <TextView
         android:textSize="@dimen/activity_display_tv_fontsize"
         android:text="@string/email"
-        android:id="@+id/txtemail"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="@dimen/activity_display_marginleft"
+        android:id="@+id/tvemail"
+        android:layout_marginTop="@dimen/activity_display_margintop"
+        android:layout_marginStart="@dimen/activity_display_marginleft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:layout_below="@+id/txtemail"
+        android:layout_below="@+id/tvemail"
         android:textSize="@dimen/activity_display_tv_fontsize"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="@dimen/activity_display_marginleft"
+        android:layout_marginTop="@dimen/activity_display_margintop"
+        android:layout_marginStart="@dimen/activity_display_marginleft"
         android:text="@string/username"
-        android:id="@+id/txtusername"
+        android:id="@+id/tvusername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:layout_below="@+id/txtusername"
+        android:layout_below="@+id/tvusername"
         android:textSize="@dimen/activity_display_tv_fontsize"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="@dimen/activity_display_marginleft"
+        android:layout_marginTop="@dimen/activity_display_margintop"
+        android:layout_marginStart="@dimen/activity_display_marginleft"
         android:text="@string/password"
-        android:id="@+id/txtpassword"
+        android:id="@+id/tvpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:layout_below="@+id/txtpassword"
+        android:layout_below="@+id/tvpassword"
         android:textSize="@dimen/activity_display_tv_fontsize"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="@dimen/activity_display_marginleft"
+        android:layout_marginTop="@dimen/activity_display_margintop"
+        android:layout_marginStart="@dimen/activity_display_marginleft"
         android:text="@string/gender"
-        android:id="@+id/gender"
+        android:id="@+id/tvgender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -46,37 +46,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/email"
-        android:layout_alignBottom="@+id/txtemail"
+        tools:text="Medium Text"
+        android:id="@+id/tvemaildisplay"
+        android:layout_alignBottom="@+id/tvemail"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="43dp" />
+        android:layout_marginEnd="@dimen/activity_display_marginend" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/username"
-        android:layout_alignBottom="@+id/txtusername"
-        android:layout_alignStart="@+id/email" />
+        tools:text="Medium Text"
+        android:id="@+id/tvusernamedisplay"
+        android:layout_above="@+id/tvpassword"
+        android:layout_alignStart="@+id/tvemaildisplay" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/password"
-        android:layout_alignTop="@+id/txtpassword"
-        android:layout_alignStart="@+id/username" />
+        tools:text="Medium Text"
+        android:id="@+id/tvpassworddisplay"
+        android:layout_alignBottom="@+id/tvpassword"
+        android:layout_alignStart="@+id/tvusernamedisplay" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/gend"
-        android:layout_alignBottom="@+id/gender"
-        android:layout_alignStart="@+id/username" />
+        tools:text="Medium Text"
+        android:id="@+id/tvgenddislay"
+        android:layout_alignBottom="@+id/tvgender"
+        android:layout_alignStart="@+id/tvusernamedisplay" />
 
 </RelativeLayout>

@@ -7,7 +7,7 @@
     tools:context=".Login">
 
     <TextView
-        android:id="@+id/textlogo"
+        android:id="@+id/tvtextlogo"
         android:layout_width="match_parent"
         android:layout_height="@dimen/layoutland_activity_main_title_fontsize"
         android:background="@color/colorTittle"
@@ -18,8 +18,8 @@
         android:textSize="@dimen/activity_main_tv_fontsize" />
 
     <EditText
-        android:id="@+id/txtusername"
-        android:layout_below="@+id/textlogo"
+        android:id="@+id/tvusername"
+        android:layout_below="@+id/tvtextlogo"
         android:inputType="text"
         style="@style/activity_main_configView"
         android:layout_marginTop="@dimen/layoutland_activity_main_margintop"
@@ -27,10 +27,10 @@
         android:hint="@string/username" />
 
     <EditText
-        android:id="@+id/txtpassword"
+        android:id="@+id/tvpassword"
         android:inputType="textPassword"
         style="@style/activity_main_configView"
-        android:layout_below="@+id/txtusername"
+        android:layout_below="@+id/tvusername"
         android:layout_marginTop="@dimen/layoutland_activity_main_margintop"
         android:drawableStart="@drawable/ic_password"
         android:hint="@string/password" />
@@ -39,7 +39,7 @@
         android:id="@+id/linearlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txtpassword"
+        android:layout_below="@+id/tvpassword"
         style="@style/activity_main_configView"
         android:layout_marginTop="@dimen/layoutland_activity_main_margintop"
         android:orientation="horizontal">

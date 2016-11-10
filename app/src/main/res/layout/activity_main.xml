@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@android:color/white"
     tools:context=".Login">
 
     <TextView
-        android:id="@+id/textlogo"
+        android:id="@+id/tvtextlogo"
         android:layout_width="match_parent"
         android:layout_height="@dimen/activity_main_tv_title_height"
         android:background="@color/colorTittle"
@@ -18,8 +18,8 @@
         android:textSize="@dimen/activity_main_tv_fontsize" />
 
     <EditText
-        android:id="@+id/txtusername"
-        android:layout_below="@+id/textlogo"
+        android:id="@+id/etusername"
+        android:layout_below="@+id/tvtextlogo"
         android:inputType="text"
         style="@style/activity_main_configView"
         android:layout_marginTop="@dimen/activity_main_tvUsername_marginTop"
@@ -27,10 +27,10 @@
         android:hint="@string/username" />
 
     <EditText
-        android:id="@+id/txtpassword"
+        android:id="@+id/etpassword"
         android:inputType="textPassword"
         style="@style/activity_main_configView"
-        android:layout_below="@+id/txtusername"
+        android:layout_below="@+id/etusername"
         android:layout_marginTop="@dimen/activity_main_tvPassword_marginTop"
         android:drawableStart="@drawable/ic_password"
         android:hint="@string/password" />
@@ -39,7 +39,7 @@
         android:id="@+id/linearlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txtpassword"
+        android:layout_below="@+id/etpassword"
         style="@style/activity_main_configView"
         android:layout_marginTop="@dimen/activity_main_layout_marginTop"
         android:orientation="horizontal">

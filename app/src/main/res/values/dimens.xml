@@ -24,4 +24,7 @@
     <dimen name="layoutland_activity_facebook_tv_margintop">20dp</dimen>
     <dimen name="activity_display_tv_fontsize">30sp</dimen>
     <dimen name="activity_display_marginleft">30dp</dimen>
+    <dimen name="activity_display_margintop">30dp</dimen>
+    <dimen name="activity_display_marginend">43dp</dimen>
+
 </resources>
