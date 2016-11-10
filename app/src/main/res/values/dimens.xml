@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_main_tv_fontsize">20sp</dimen>
+    <dimen name="activity_main_tv_padding">20dp</dimen>
+    <dimen name="activity_main_tv_title_height">100dp</dimen>
+    <dimen name="activity_main_tvUsername_marginTop">60dp</dimen>
+    <dimen name="activity_main_tvPassword_marginTop">20dp</dimen>
+    <dimen name="activity_main_layout_marginTop">30dp</dimen>
+    <dimen name="activity_main_button_marginTop">30dp</dimen>
+    <dimen name="activity_main_tvForgotpw_marginTop">20dp</dimen>
+    <dimen name="activity_main_imgAdd_marginTop">60dp</dimen>
+    <dimen name="activity_main_imgAdd_marginEnd">24dp</dimen>
+    <dimen name="activity_register_tvTitle_height">100dp</dimen>
+    <dimen name="activity_register_margintop">20dp</dimen>
+    <dimen name="activity_register_edtEmail_margintop">60dp</dimen>
+    <dimen name="activity_facebook_login_margintop">20dp</dimen>
+    <dimen name="activity_facebook_login_tv_margintop">80dp</dimen>
+    <dimen name="layoutland_activity_main_margintop">10dp</dimen>
+    <dimen name="layoutland_activity_main_title_fontsize">50dp</dimen>
+    <dimen name="layoutland_activity_register_title_fontsize">50dp</dimen>
+    <dimen name="layoutland_activity_register_margintop">10dp</dimen>
+    <dimen name="layoutland_activity_facebook_tv_margintop">20dp</dimen>
+    <dimen name="activity_display_tv_fontsize">30sp</dimen>
+    <dimen name="activity_display_marginleft">30dp</dimen>
+</resources>

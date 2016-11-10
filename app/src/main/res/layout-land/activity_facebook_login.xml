@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorFacebook"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoangduy.demoview.FacebookLogin">
+    <TableRow>
+
+        <ImageView
+            android:layout_column="3"
+            android:src="@drawable/fb"
+            style="@style/activity_facebook_login_img_size"
+            />
+    </TableRow>
+    <TableRow
+        style="@style/activity_facebook_login_margin"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/email"
+            style="@style/layoutland_activity_facebook_login_edt_style"
+            android:layout_weight="1"
+            android:hint="@string/emailOrphone"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_column="0" />
+    </TableRow>
+    <TableRow
+        style="@style/activity_facebook_login_margin"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <EditText
+            android:id="@+id/password"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            style="@style/layoutland_activity_facebook_login_edt_style"
+            android:hint="@string/password"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_column="0" />
+    </TableRow>
+    <TableRow
+        style="@style/activity_facebook_login_margin"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/activity_facebook_login_margintop"
+            android:layout_column="0"
+            android:background="@color/colorButtonFb"
+            android:id="@+id/btnlogin"
+            android:textColor="@android:color/white"
+            android:text="@string/btnLogin"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_marginTop="@dimen/layoutland_activity_facebook_tv_margintop"
+            android:layout_column="3"
+            android:textColor="@android:color/white"
+            android:text="@string/signupFb"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            style="@style/layoutland_activity_facebook_login_edt_style"
+            android:gravity="center"
+            android:layout_column="3"
+            android:textColor="@android:color/white"
+            android:text="@string/help"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    </TableRow>
+</TableLayout>

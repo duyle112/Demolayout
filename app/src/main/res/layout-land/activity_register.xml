@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.hoangduy.demoview.Register">
+    <TextView
+        android:textSize="@dimen/activity_main_tv_fontsize"
+        android:paddingLeft="@dimen/activity_main_tv_padding"
+        android:paddingTop="@dimen/activity_main_tv_padding"
+        android:text="@string/activity_register_title"
+        android:textColor="@android:color/white"
+        android:background="@color/colorRegDark"
+        android:id="@+id/textlogo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layoutland_activity_register_title_fontsize" />
+    <EditText
+        android:hint="@string/email"
+        android:layout_below="@+id/textlogo"
+        android:drawableStart="@drawable/ic_email"
+        android:id="@+id/txtemail"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="@dimen/layoutland_activity_register_margintop"
+        style="@style/activity_register_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        style="@style/activity_register_margin"
+        android:hint="@string/username"
+        android:layout_marginTop="@dimen/activity_register_margintop"
+        android:drawableStart="@drawable/ic_person"
+        android:id="@+id/txtusername"
+        android:layout_below="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        style="@style/activity_register_margin"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/activity_register_margintop"
+        android:drawableStart="@drawable/ic_password"
+        android:id="@+id/txtpassword"
+        android:layout_below="@+id/txtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/rdgroup"
+        android:layout_alignEnd="@+id/txtpassword"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/activity_register_margintop"
+        android:layout_below="@+id/txtpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdbmale"
+            android:text="@string/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rdbfemale"
+            android:text="@string/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <TextView
+        android:text="@string/gender"
+        android:id="@+id/gender"
+        android:textSize="@dimen/activity_main_tv_fontsize"
+        style="@style/activity_register_margin"
+        android:layout_marginTop="@dimen/activity_register_margintop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpassword"
+        android:layout_alignStart="@+id/txtpassword" />
+    <Button
+        style="@style/activity_register_margin"
+        android:textColor="@android:color/white"
+        android:text="@string/btnSignUp"
+        android:background="@color/colorButtonRegistration"
+        android:id="@+id/btnsignup"
+        android:layout_marginTop="@dimen/activity_register_margintop"
+        android:layout_below="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/swpass"
+       android:layout_alignTop="@+id/txtpassword"
+        android:layout_alignEnd="@+id/txtpassword" />
+
+</RelativeLayout>

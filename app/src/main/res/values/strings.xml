@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DemoView</string>
+    <string name="activity_main_title">YOUR LOGO</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="buttonText">SIGN IN</string>
+    <string name="tvForgetpassword">Forgot your password?</string>
+    <string name="email">Email</string>
+    <string name="activity_register_title">REGISTRATION</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="btnSignUp">GET STARTED</string>
+    <string name="emailOrphone">Email or Phone</string>
+    <string name="signupFb">Sign Up For Facebook</string>
+    <string name="help">Need Help?</string>
+    <string name="btnLogin">LOG IN</string>
+</resources>
